@@ -1,0 +1,62 @@
+
+
+h1 {
+color: #785616;
+}
+
+nav {
+	background-color: #FFB4B0;
+	outline: #000 solid 2px;
+	margin-bottom: 20px;
+}
+
+aside { 
+    background-color: #4DD7FA;
+    display: block;
+    width: 30%;
+    padding-right: 1px;
+    margin-right: 20px;
+    outline: #000 solid 2px;
+    float: left;
+}
+
+main {
+	background-color: #FEFAC0; 
+	float: right;
+	width: 100%
+	margin-left: 15px;
+	display: block;
+    outline: #000 solid 2px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f4cf4c;
+}
+
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
