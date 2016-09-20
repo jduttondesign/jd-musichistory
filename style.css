@@ -18,16 +18,56 @@ aside {
     margin-right: 20px;
     outline: #000 solid 2px;
     float: left;
+    padding: 0 0 4px 0;
 }
+
+ /* aside drop down css begins*/
+.artistdropdown {
+  background:transparent;
+   width: 297px;
+   padding: 2px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:1.2em;
+   font-weight:600;
+   color:#fff;
+   line-height: 1px;
+   border: 0;
+   border-radius: 0;
+   /*Hides the default arrows for Selects*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+.albumdropdown {
+  background:transparent;
+   width: 297px;
+   padding: 2px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:1.2em;
+   font-weight:600;
+   color:#fff;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   /*Hides the default arrows for Selects*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+ /* aside drop down css ends */
 
 main {
 	background-color: #FEFAC0; 
 	float: right;
 	width: 100%
-	margin-left: 15px;
+	
 	display: block;
     outline: #000 solid 2px;
     float: left;
+    padding: 0 600px 30px 20px;
 }
 
 ul {
@@ -53,11 +93,58 @@ li a:hover {
     background-color: #f4cf4c;
 }
 
-.checkbox-grid li {
-    display: block;
-    float: left;
-    width: 25%;
-    padding: 10px;
+.aname {
+    padding-left: 10px;
 }
 
+
+.Artist {
+    padding-left: 10px;
+}
+
+.Album {
+    padding-left: 10px;
+}
+
+.Genre{
+padding-left: 10px;
+}
+
+.addmusic {
+    padding: 60px 0 0 500px;
+}
+
+#rectangle {
+    border: 1px solid black;
+    width:300px;
+    height:25px;
+    background:white;
+    
+}
+
+
+
+
+.Album {
+
+}
+
+.Artist {
+
+}
+
+.
+.checkbox-grid li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.add {
+    border-radius: 60px;
+    background-color: lightgray;
+    width: 55px;
+    text-align: center;
+}
 
