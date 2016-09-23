@@ -1,13 +1,98 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Music History</title>
+  <title>View Music</title>
+  <link rel="stylesheet" href="style.css">
+  <font face="Arial"</font face>
 </head>
 
 <body>
+<div>
+<nav>
+	<ul>
+		<li><a href="index.html">View Music | </a></li>
+		<li><a href="addmusic.html">Add Music | </a></li>
+		<li><a href="#">Profile</a></li>
+	</ul>
+</nav>
+</div>
 
+<aside>
+  <h5 class="Song">Song length:</h5>
+  <img src="x" alt="">
+  <input type="range" min="0" max="1" value="1" id="fader" step=".05">
 
+   <h5 class="Artist">Artist:</h5><br>
+   <div class="artistdropdown">
+    <select class="aname">
+        <option>Joan Jett </option>
+        <option>Leonard Bernstein</option>
+        <option>CCR </option>
+        <option> J.S. Bach </option>
+    </select>
+</div>
+
+   <h5 class="Album">Album:</h5><br>
+   <div class="albumdropdown">
+    <select>
+        <option>I Love Rock and Roll</option>
+        <option>Candide </option>
+        <option>Bayou Country </option>
+        <option>Cello Suites</option>
+        option
+    </select>
+</div>
+
+   <h5 class="Genre">Genre:</h5><br>
+
+   	<form action="demo_form.asp">
+  	<input type="checkbox" name="vehicle" value="Rock"> Rock
+  	<input type="checkbox" name="vehicle" value="Pop" checked> Pop
+    <input type="checkbox" name="vehicle" value="Blues"> Blues<br>
+  	<input type="checkbox" name="vehicle" value="Classical" checked> Classical
+    <input type="checkbox" name="vehicle" value="Jazz"> Jazz
+  	<input type="checkbox" name="vehicle" value="Hip Hop" checked> Hip Hop
+  	<input type="submit" value="Filter">
+</form>
+</aside>
+
+<main>
+<div>
+<h1>I Love Rock and Roll</h1>	
+<ul>
+	<li>Joan Jett|</li>
+	<li>I Love Rock and Roll|</li>
+	<li>Punk Rock|</li>
+</ul>
+</div>	
+
+<div>
+<h1>Overture to Candide</h1>	
+<ul>
+	<li>Leonard Bernstein |</li>
+	<li>Candide |</li>
+	<li>Opera |</li>
+</ul>
+</div>	
+
+<div>
+<h1>Proud Mary</h1>
+<ul>
+	<li>CCR |</li>
+	<li>Bayou Country |</li>
+	<li>Classic Rock |</li>
+</ul>	
+</div>	
+
+<div>
+<h1>Cello Suites</h1>	
+<ul>
+	<li>J.S. Bach |</li>
+	<li>Cello Suites |</li>
+	<li>Baroque |</li>
+</ul>
+</div>	
+</main>
 </body>
 </html>
